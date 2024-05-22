@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_pilgram"
+description = "Use [a/Pilgram2](https://github.com/mgineer85/pilgram2) filters in ComfyUI"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["numpy", "Pillow", "pilgram2"]
+
+[project.urls]
+Repository = "https://github.com/kinfolk0117/ComfyUI_Pilgram"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_Pilgram"
+Icon = ""
